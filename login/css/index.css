@@ -4,7 +4,7 @@
     justify-content: center;        /* Centraliza horizontalmente */
     align-items: center;            /* Centraliza verticalmente */
     height: 100%;                   /* Altura total da tela */
-    background-color: rgb(218, 218, 218);    /* Cor de fundo suave */
+    background-color: #f0f0f0;    /* Cor de fundo suave */
 }
 
 .formulario {
@@ -13,22 +13,6 @@
     border-radius: 5px;            /* Bordas arredondadas */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Sombra suave */
     width: 300px;                   /* Largura do formulário */
-}
-
-.link_cadastro{
-    text-decoration: none;  /* remove o sublinhado padrão dos links */
-    transition: all 0.3s ease; /* adiciona uma transção suave */
-    border-bottom: 2px solid transparent; /* cria uma borda inferior invisivel */
-    padding-bottom: 2px; /* dá um pequeno espaço entre o texto e linha */
-}
-
-.link_cadastro span:hover{
-    color: #0099ff; /* muda de cor */
-    border-bottom: 2px solid #0099ff; /* borda inferior visivel */
-}
-
-table, th, td {
-  border:1px solid black;
 }
 
 input[type="text"], input[type="password"] {
